@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1676897428695" clover="3.2.0">
+  <project timestamp="1676897428695" name="All files">
+    <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="8" coveredelements="4" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
+    <file name="todoListItem.jsx" path="C:\Users\ACER\Desktop\todo_app\src\todoListItem.jsx">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

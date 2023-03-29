@@ -1,0 +1,44 @@
+{
+  "quizQuations":[
+    {
+      "Q": "Who is first Indian batsman to hit 6 sixes in an over ?",
+      "A": "Shikhar Dhawan",
+      "B": "Yuvraj Singh",
+      "C": "Ajit Agarkar",
+      "ANS": "Yuvraj Singh",
+      "id":1
+    },
+    {
+      "Q": "Who was the captain of Indian Cricket Team in World Cup 2011 ?",
+      "A": "Mahendra Singh Dhoni",
+      "B": "Sourav Ganguly",
+      "C": "Virat Kohli",
+      "ANS": "Mahendra Singh Dhoni",
+      "id":2
+    },
+    {
+      "Q": "Who is the prime minister of india ?",
+      "A": "Atal Bihari Vajpayee",
+      "B": "Amit Shah",
+      "C": "Narendra Modi",
+      "ANS": "Narendra Modi",
+      "id":3
+    },
+    {
+      "Q": "Which is the capital city of karnataka ?",
+      "A": "Bengaluru",
+      "B": "Mysore",
+      "C": "Chitradurga",
+      "ANS": "Bengaluru",
+      "id":4
+    },
+    {
+      "Q": "Which is the Karnataka state anthem ?",
+      "A": "Jana Gana Mana",
+      "B": "Jaya Bharata Jananiya Tanujate",
+      "C": "Vande Matharam",
+      "ANS": "Jaya Bharata Jananiya Tanujate",
+      "id":5
+    }
+  ]
+}
