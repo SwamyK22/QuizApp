@@ -33,7 +33,7 @@ function SecondPage() {
           onClick={(() => activeItem('A', item))}
         >
           <p
-          className='py-2 rounded-full font-bold text-xl'
+           className='py-2 rounded-full font-bold md:text-xl sm:text-lg sm:h-8 sm:w-8 md:h-12 md:w-12 flex items-center justify-center'
             style={{
               backgroundColor: '#EDE8E3'
             }}>
@@ -49,7 +49,7 @@ function SecondPage() {
               'A'
             )}
           </p>
-          <p className="md:text-2xl font-bold col-span-8 sm:text-xl">
+          <p className="md:text-2xl font-bold px-3 col-span-8 sm:text-xl">
           {item.A}
           </p>
         </button>
@@ -64,7 +64,7 @@ function SecondPage() {
           onClick={() => activeItem('B', item)}
         >
           <p
-            className='py-2 rounded-full font-bold text-xl'
+            className='py-2 rounded-full font-bold md:text-xl sm:text-lg sm:h-8 sm:w-8 md:h-12 md:w-12 flex items-center justify-center'
             style={{
               backgroundColor: '#EDE8E3'
             }}>
@@ -94,7 +94,7 @@ function SecondPage() {
           onClick={() => activeItem('C', item)}
         >
           <p
-             className='py-2 rounded-full font-bold text-xl'
+             className='py-2 rounded-full font-bold md:text-xl sm:text-lg sm:h-8 sm:w-8 md:h-12 md:w-12 flex items-center justify-center'
              style={{
                backgroundColor: '#EDE8E3'
              }}

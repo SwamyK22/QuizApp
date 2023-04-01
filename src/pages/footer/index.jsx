@@ -8,19 +8,15 @@ function Footer() {
     val,
     page,
     activePage,
-    windowSize,
     setPage,
     setValidateAns,
     activeItem,
   } = useContext(QuizContext);
-  console.log(windowSize);
   const nav = useNavigate();
   return (
-    <div className={clsx('flex justify-around items-center py-5 bg-slate-50 w-full',{
-      'bg-inherit': windowSize <= 320
-    })}>
-      {page <= 5 && windowSize > 320 && (
-        <div className="flex items-center w-[50%]">
+    <div className="flex justify-around items-center py-5 md:bg-slate-50 w-full sm:bg-inherit">
+      {page <= 5 && (
+        <div className="flex items-center w-[50%] sm:hidden md:flex">
           <div className="h-3 w-[50%] bg-gray-500 rounded-md">
             <div
               className="bg-green-500 h-3 rounded-md"

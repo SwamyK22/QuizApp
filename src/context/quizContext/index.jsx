@@ -14,7 +14,6 @@ export function QuizContextProvider({ children }) {
   const [page, setPage] = useState(1);
   const [validateAns, setValidateAns] = useState(0);
   const [questions, setQuestions] = useState([]);
-  const [windowSize, setWindowSize] = useState(window.innerWidth);
   const [error, setError] = useState('')
 
   const addQuestion = useCallback(async () => {
@@ -29,15 +28,6 @@ export function QuizContextProvider({ children }) {
 
   useEffect(() => {
     addQuestion();
-    const handleWindowResize = () => {
-      setWindowSize(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleWindowResize);
-
-    return () => {
-      window.removeEventListener('resize', handleWindowResize);
-    };
   }, []);
 
   const arr = [
@@ -112,12 +102,10 @@ export function QuizContextProvider({ children }) {
       questions,
       setPage,
       setValidateAns,
-      windowSize,
     }),
     [
       page,
       arr,
-      windowSize,
       questions,
       validateAns,
       error,
